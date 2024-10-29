@@ -1,0 +1,22 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/tests/**/*.*"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./src",
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "composite": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "target": "ES2016",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}

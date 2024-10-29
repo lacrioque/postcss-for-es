@@ -1,7 +1,7 @@
 {
-  "name": "postcss-for",
-  "version": "2.1.1",
-  "description": "PostCSS plugin that enables SASS-like for loop syntax in your CSS",
+  "name": "postcss-for-es",
+  "version": "1.0.0",
+  "description": "PostCSS plugin that enables SASS-like for loop syntax in your CSS - now in typescript and es6",
   "keywords": [
     "postcss",
     "css",
@@ -14,24 +14,29 @@
     "iterate",
     "nested"
   ],
-  "author": "Anton Yakushev <yakushevanton@gmail.com>",
+  "author": "Markus Flür <markusfluer@markusfluer.de>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antyakushev/postcss-for.git"
+    "url": "https://github.com/lacriqoue/postcss-for.git"
   },
   "dependencies": {
-    "postcss": "^5.0.0",
-    "postcss-simple-vars": "^2.0.0"
+    "postcss": "^8.4.47",
+    "postcss-simple-vars": "^7.0.1"
   },
   "devDependencies": {
-    "chai": "3.2.0",
-    "gulp": "3.9.0",
-    "gulp-eslint": "0.11.1",
-    "gulp-mocha": "2.1.3",
-    "postcss-custom-properties": "^5.0.1"
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "postcss-custom-properties": "^14.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.1",
+    "vitest": "^2.1.4"
   },
   "scripts": {
-    "test": "gulp"
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint ."
   }
 }
