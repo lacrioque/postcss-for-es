@@ -3,7 +3,7 @@ import { expect, describe, it } from "vitest";
 import { postCssForPlugin, type PluginOptions } from "./postcssForPlugin";
 
 const test = function (input: string, output?: string, opts?: Partial<PluginOptions>) {
-  const processed = postcss([postCssForPlugin({debug: true, ...opts})]).process(input, { from: undefined });
+  const processed = postcss([postCssForPlugin({debug: false, ...opts})]).process(input, { from: undefined });
   expect(processed.css).to.eql(output);
 };
 

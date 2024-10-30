@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lacriqoue/postcss-for.git"
+    "url": "https://github.com/lacrioque/postcss-for-es.git"
   },
   "dependencies": {
     "postcss": "^8.4.47",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@vitest/ui": "^2.1.4",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "postcss-custom-properties": "^14.0.3",
@@ -42,7 +43,8 @@
   "scripts": {
     "build": "vite build",
     "test": "vitest",
-    "test:ci": "vitest --watch false",
+    "test:ci": "vitest --watch false --outputFile=.test/test-results.junit --reporter=junit",
+    "test:viz": "vitest --watch false --outputFile=.test/test-results.html --reporter=html",
     "lint": "eslint ."
   }
 }
