@@ -1,8 +1,0 @@
-node_modules/
-src/
-resources
-.github
-.gitignore
-.test
-.travis.yml
-vite.config.json
