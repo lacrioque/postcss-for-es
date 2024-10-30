@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/lacrioque/postcss-for-es/compare/v1.1.1...v1.1.2) (2024-10-30)
+
+
+### Bug Fixes
+
+* versioning should only run when all others are succsessful ([073b2d9](https://github.com/lacrioque/postcss-for-es/commit/073b2d90670e9fd6142abcf60d60a1af5079c7e5))
+
 ## [1.1.1](https://github.com/lacrioque/postcss-for-es/compare/v1.1.0...v1.1.1) (2024-10-30)
 
 
