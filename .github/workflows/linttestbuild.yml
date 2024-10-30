@@ -46,14 +46,17 @@ jobs:
           name: unit-test-report
           path: .test/test-results.junit
 
-  build:
-    needs: 
+  buildandrelease:
+    needs:
       - test
       - lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Build source code
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Build code
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -61,16 +64,6 @@ jobs:
       - run: corepack enable
       - run: yarn install --frozen-lockfile
       - run: yarn build
-
-  semver:
-    needs:
-      - build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         env:
