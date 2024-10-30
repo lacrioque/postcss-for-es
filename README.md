@@ -14,7 +14,7 @@ You can try postcss-for directly from [codepen].
 Just choose [PostCSS] as a preprocessor and pick desired plugin from the list.
 
 [
-    ![lalala](https://raw.githubusercontent.com/antyakushev/postcss-for/9a8663762bdb65f94a054926e2eba3b0d8f89c68/resources/codepen.png)
+    ![lalala](https://raw.githubusercontent.com/lacrioque/postcss-for-es/9a8663762bdb65f94a054926e2eba3b0d8f89c68/resources/codepen.png)
 ][codepen]
 
 ## Changes and Fork
