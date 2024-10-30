@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/lacrioque/postcss-for-es/compare/v1.1.3...v1.1.4) (2024-10-30)
+
+
+### Bug Fixes
+
+* another fix for the pipeline ([5fe86b1](https://github.com/lacrioque/postcss-for-es/commit/5fe86b1f9af5c090e86885b8b591f3181e056017))
+
 ## [1.1.3](https://github.com/lacrioque/postcss-for-es/compare/v1.1.2...v1.1.3) (2024-10-30)
 
 
