@@ -1,5 +1,5 @@
 # PostCSS For Plugin
-[![Build Status](https://travis-ci.org/lactioque/postcss-for-es.svg)][ci] 
+[![Build Status](https://travis-ci.org/lacrioque/postcss-for-es.svg)][ci] 
 [![NPM version](https://badge.fury.io/js/postcss-for-es.svg)][npm] 
 [![NPM Downloads](https://img.shields.io/npm/dm/postcss-for-es.svg)](https://www.npmjs.org/package/postcss-for-es)
 [
@@ -17,10 +17,25 @@ Just choose [PostCSS] as a preprocessor and pick desired plugin from the list.
     ![lalala](https://raw.githubusercontent.com/antyakushev/postcss-for/9a8663762bdb65f94a054926e2eba3b0d8f89c68/resources/codepen.png)
 ][codepen]
 
+## Changes and Fork
+
+Thanks a lot to [The original](https://github.com/antyakushev/postcss-for), but it was quite aged and didn't support es6. 
+
+I also used the old postcss syntax and in the project I was working on it was very slow (a loooot of loops).
+
+Things that don't work as of yet, but are planned:
+
+- :root selector
+- external variables
+
+
 ## Usage
 
 ```js
-postcss([ require('postcss-for') ])
+import  postcss from 'postcss';
+import  postcssFor from 'postcss-for-es';
+
+export default postcss([ postcssFor() ]);
 ```
 
 Note, that unlike the Sass `@for`, postcss-for in the example below iterates from 1 to 3 *inclusively*.
@@ -44,7 +59,6 @@ Note, that unlike the Sass `@for`, postcss-for in the example below iterates fro
 
 This plugin must be set before [postcss-nested] and [postcss-simple-vars]. 
 Therefore dollar variable cannot be used as a loop range parameter.
-If you do want to use predefined range parameters though, consider using [postcss-custom-properties] with [postcss-at-rules-variables], or look into this [postcss-for fork](https://github.com/xori/postcss-for).
 
 ## More features
 
@@ -107,3 +121,8 @@ See [PostCSS] docs for examples for your environment.
 [deps]:                      https://gemnasium.com/antyakushev/postcss-for
 [npm]:                       http://badge.fury.io/js/postcss-for
 [codepen]:                   http://codepen.io/antyakushev/pen/oxOBEO
+
+
+## Thank you!
+
+(antyakushev)[https://github.com/antyakushev]
