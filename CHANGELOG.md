@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/lacrioque/postcss-for-es/compare/v1.1.7...v1.1.8) (2024-10-30)
+
+
+### Bug Fixes
+
+* update workflow to release built package ([3280cb5](https://github.com/lacrioque/postcss-for-es/commit/3280cb5ce2ef56e3fd139d2c9cf6aa58ca7ec17e))
+
 ## [1.1.7](https://github.com/lacrioque/postcss-for-es/compare/v1.1.6...v1.1.7) (2024-10-30)
 
 
