@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/lacrioque/postcss-for-es/compare/v1.1.5...v1.1.6) (2024-10-30)
+
+
+### Bug Fixes
+
+* prebublish build ([49df2a8](https://github.com/lacrioque/postcss-for-es/commit/49df2a83ce0e6be97ec1568bcfeee278e0c98838))
+
 ## [1.1.5](https://github.com/lacrioque/postcss-for-es/compare/v1.1.4...v1.1.5) (2024-10-30)
 
 
