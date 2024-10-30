@@ -29,7 +29,6 @@ jobs:
       - run: yarn lint
 
   test:
-    needs: lint
     runs-on: ubuntu-latest
 
     steps:
@@ -48,7 +47,9 @@ jobs:
           path: .test/test-results.junit
 
   build:
-    needs: test
+    needs: 
+      - test
+      - lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -62,6 +63,8 @@ jobs:
       - run: yarn build
 
   semver:
+    needs:
+      - build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
