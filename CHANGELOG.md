@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/lacrioque/postcss-for-es/compare/v1.1.6...v1.1.7) (2024-10-30)
+
+
+### Bug Fixes
+
+* only package the dist folder ([3810c7c](https://github.com/lacrioque/postcss-for-es/commit/3810c7c0225adaa2d76bfb92096d74e09b26fe84))
+
 ## [1.1.6](https://github.com/lacrioque/postcss-for-es/compare/v1.1.5...v1.1.6) (2024-10-30)
 
 
