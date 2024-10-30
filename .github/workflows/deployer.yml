@@ -4,9 +4,9 @@
 name: Deploy package to npm
 
 on:
-  push:
-    tags:
-      - v*
+  release:
+    types: [published]
+
 
 jobs:
   publish-npm:
