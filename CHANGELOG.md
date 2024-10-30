@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/lacrioque/postcss-for-es/compare/v1.1.2...v1.1.3) (2024-10-30)
+
+
+### Bug Fixes
+
+* update deployer ([52abd97](https://github.com/lacrioque/postcss-for-es/commit/52abd97d2ee361688862df06826d6bba19a4fc95))
+
 ## [1.1.2](https://github.com/lacrioque/postcss-for-es/compare/v1.1.1...v1.1.2) (2024-10-30)
 
 
