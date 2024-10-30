@@ -1,7 +1,7 @@
 # PostCSS For Plugin
-[![Build Status](https://travis-ci.org/lacrioque/postcss-for-es.svg)][ci] 
-[![NPM version](https://badge.fury.io/js/postcss-for-es.svg)][npm] 
-[![NPM Downloads](https://img.shields.io/npm/dm/postcss-for-es.svg)](https://www.npmjs.org/package/postcss-for-es)
+[![Lint, Test, build](https://github.com/lacrioque/postcss-for-es/actions/workflows/linttestbuild.yml/badge.svg?branch=master)](https://github.com/lacrioque/postcss-for-es/actions/workflows/linttestbuild.yml)
+[![NPM Version](https://img.shields.io/npm/v/postcss-for-es)](https://www.npmjs.com/package/postcss-for-es)
+[![NPM Downloads](https://img.shields.io/npm/dw/postcss-for-es)](https://www.npmjs.com/package/postcss-for-es)
 [
     <img align="right" width="135" height="95" src="http://postcss.github.io/postcss/logo-leftp.png" title="Philosopher’s stone, logo of PostCSS">
 ][PostCSS]
