@@ -1,6 +1,6 @@
 {
   "name": "postcss-for-es",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "PostCSS plugin that enables SASS-like for loop syntax in your CSS - now in typescript and es6",
   "keywords": [
     "postcss",
