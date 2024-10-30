@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/lacrioque/postcss-for-es/compare/v1.1.4...v1.1.5) (2024-10-30)
+
+
+### Bug Fixes
+
+* update npmignore and pipeline ([2faef7f](https://github.com/lacrioque/postcss-for-es/commit/2faef7fc9050e0cd73594e6677a9d68bc22237b8))
+* update pipeline ([8076cff](https://github.com/lacrioque/postcss-for-es/commit/8076cffe0e71d550bc6e46077879a23e8a0c63b5))
+
 ## [1.1.4](https://github.com/lacrioque/postcss-for-es/compare/v1.1.3...v1.1.4) (2024-10-30)
 
 
