@@ -14,9 +14,10 @@
     "iterate",
     "nested"
   ],
-  "module": "dist/postcss-for-es.mjs",
   "main": "dist/postcss-for-es.js",
-  "types": "dist/postcss-for-es.d.ts",
+  "module": "dist/postcss-for-es.js",
+  "type": "module",
+  "types": "dist/postcssForPlugin.d.ts",
   "author": "Markus Flür <markusfluer@markusfluer.de>",
   "license": "MIT",
   "repository": {
