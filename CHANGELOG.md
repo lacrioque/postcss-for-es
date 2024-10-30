@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/lacrioque/postcss-for-es/compare/v1.1.8...v1.1.9) (2024-10-30)
+
+
+### Bug Fixes
+
+* if i name it es it should be es ([6cd7662](https://github.com/lacrioque/postcss-for-es/commit/6cd7662552309a9c851df209c092347e65a423a0))
+
 ## [1.1.8](https://github.com/lacrioque/postcss-for-es/compare/v1.1.7...v1.1.8) (2024-10-30)
 
 
