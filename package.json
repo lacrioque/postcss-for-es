@@ -41,6 +41,7 @@
     "vitest": "^2.1.4"
   },
   "scripts": {
+    "prepublish": "yarn build",
     "build": "vite build",
     "test": "vitest",
     "test:ci": "vitest --watch false --outputFile=.test/test-results.junit --reporter=junit",
